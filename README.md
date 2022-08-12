@@ -1,2 +1,5 @@
 # Matoi
-Notes tintColor customizer
+<img src="githubAssets/header.png">
+<br>
+
+### Notes tintColor customizer
