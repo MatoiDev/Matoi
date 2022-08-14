@@ -1,9 +1,11 @@
 Package: com.appleworm.matoi
 Name: Matoi
-Version: 0.0.1
+Version: 1.0.0
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
-Maintainer: AppleWorm
-Author: AppleWorm
+Description: Apple notes tint color customizer
+Maintainer: AppleWorm <applewormdev@gmail.com>
+Author: AppleWorm <applewormdev@gmail.com>
 Section: Tweaks
-Depends: mobilesubstrate (>= 0.9.5000), com.mrgcgamer.libgcuniversal
+dev: AppleWorm
+Depends: mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 14.0), com.mrgcgamer.libgcuniversal
+Icon: file:///Library/PreferenceBundles/MatoiPreferences.bundle/icon_large.png

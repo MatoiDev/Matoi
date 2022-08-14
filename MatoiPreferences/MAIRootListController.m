@@ -1,5 +1,6 @@
 #import <Foundation/Foundation.h>
 #import "MAIRootListController.h"
+#import "spawn.h"
 
 @implementation MAIRootListController
 
@@ -200,16 +201,11 @@
 		[HBRespringController respringAndReturnTo:[NSURL URLWithString:@"prefs:root=Tweaks&path=Matoi"]];
 }
 
-- (void)justaRespring {
+- (void)killNotes {
 
-	[UIView animateWithDuration:0.7 delay:0 options:UIViewAnimationOptionCurveEaseIn animations:^{
-		[[self blurOnPBScreen] setAlpha:1];
-	} completion:^(BOOL finished) {
-		if (![[NSFileManager defaultManager] fileExistsAtPath:@"/Library/MobileSubstrate/DynamicLibraries/shuffle.dylib"])
-			[HBRespringController respringAndReturnTo:[NSURL URLWithString:@"prefs:root=Matoi"]];
-		else
-			[HBRespringController respringAndReturnTo:[NSURL URLWithString:@"prefs:root=Tweaks&path=Matoi"]];
-	}];
+    pid_t pid;
+    const char * args[] = { "killall", "MobileNotes", NULL };
+    posix_spawn(&pid, "/usr/bin/killall", NULL, NULL, (char * const *)args, NULL);
 
 }
 

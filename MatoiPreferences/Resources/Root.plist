@@ -26,7 +26,7 @@
 			<key>safeOnDismiss</key>
 			<true/>
 			<key>fallback</key>
-			<string>FFFFFF</string>
+			<string>FF0000</string>
 			<key>style</key>
 			<integer>1</integer>
 		</dict>
@@ -44,9 +44,9 @@
 			<key>tintColor</key>
 			<string>#FF0000</string>
 			<key>label</key>
-			<string>Respring</string>
+			<string>Kill Notes</string>
 			<key>action</key>
-			<string>justaRespring</string>
+			<string>killNotes</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -77,6 +77,8 @@
 			<real>60</real>
 			<key>action</key>
 			<string>goGH</string>
+			<key>footerTextColor</key>
+			<string>#FFFFFF</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -129,6 +131,8 @@
 			<real>60</real>
 			<key>action</key>
 			<string>goVK</string>
+			<key>footerTextColor</key>
+			<string>#FFFFFF</string>
 		</dict>
 	</array>
 	<key>title</key>
