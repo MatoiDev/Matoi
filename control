@@ -1,11 +1,11 @@
-Package: com.appleworm.matoi
+Package: dr.erast.matoi
 Name: Matoi
 Version: 1.0.0
 Architecture: iphoneos-arm
 Description: Apple notes tint color customizer
-Maintainer: AppleWorm <applewormdev@gmail.com>
-Author: AppleWorm <applewormdev@gmail.com>
+Maintainer: Erast <applewormdev@gmail.com>
+Author: Erast <applewormdev@gmail.com>
 Section: Tweaks
-dev: AppleWorm
+dev: Erast
 Depends: mobilesubstrate, ws.hbang.common (>= 1.14), firmware (>= 14.0), com.mrgcgamer.libgcuniversal
 Icon: file:///Library/PreferenceBundles/MatoiPreferences.bundle/icon_large.png

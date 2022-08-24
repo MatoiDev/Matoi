@@ -18,7 +18,7 @@
 			<key>label</key>
 			<string>Color</string>
 			<key>defaults</key>
-			<string>com.appleworm.matoipreferences</string>
+			<string>dr.erast.matoipreferences</string>
 			<key>key</key>
 			<string>MainTintColor</string>
 			<key>supportsAlpha</key>
@@ -64,7 +64,7 @@
 			<key>footerText</key>
 			<string>See more on my GitHub</string>
 			<key>username</key>
-			<string>AppIeWorm</string>
+			<string>MatoiDev</string>
 			<key>tintColor</key>
 			<string>#FF0000</string>
 			<key>tintedContour</key>

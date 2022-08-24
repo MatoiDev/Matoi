@@ -10,6 +10,7 @@
 
 id UIDynamicSystemColorInstance = nil;
 id UIDynamicCatalogColorInstance = nil;
+
 NSString * mainColorHEX = nil;
 
 HBPreferences* preferences = nil;

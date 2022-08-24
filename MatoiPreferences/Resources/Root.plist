@@ -18,7 +18,7 @@
 			<key>label</key>
 			<string>Color</string>
 			<key>defaults</key>
-			<string>com.appleworm.matoipreferences</string>
+			<string>dr.erast.matoipreferences</string>
 			<key>key</key>
 			<string>MainTintColor</string>
 			<key>supportsAlpha</key>

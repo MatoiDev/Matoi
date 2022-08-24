@@ -14,7 +14,7 @@
 
 	self.appearanceSettings = [MAIPBAppearance  new];
 	self.hb_appearanceSettings = [self appearanceSettings];
-	self.preferences = [[HBPreferences alloc] initWithIdentifier:@"com.appleworm.MatoiPreferences"];
+	self.preferences = [[HBPreferences alloc] initWithIdentifier:@"dr.erast.matoipreferences"];
 
     self.navigationItem.largeTitleDisplayMode = UINavigationItemLargeTitleDisplayModeAlways;
     self.title = @"Matoi";

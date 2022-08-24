@@ -541,7 +541,7 @@ UIColor * mainTintColor = nil;
 
 %ctor {
 
-    preferences = [[HBPreferences alloc] initWithIdentifier:@"com.appleworm.matoipreferences"];
+    preferences = [[HBPreferences alloc] initWithIdentifier:@"dr.erast.matoipreferences"];
     
     [preferences registerBool: &enabledMatoi default: YES forKey:@"Enabled"];
     if (!enabledMatoi) { return ; }
