@@ -210,7 +210,7 @@
 }
 
 - (void)goVK {
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://vk.com/f4ther_of_all"] options:@{} completionHandler:nil];
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://vk.com/m4toi"] options:@{} completionHandler:nil];
 }
 
 - (void)goGH {
